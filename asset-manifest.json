@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Profile-card-react/static/css/main.531eb56f.chunk.css",
+    "main.js": "/Profile-card-react/static/js/main.44dcda4c.chunk.js",
+    "main.js.map": "/Profile-card-react/static/js/main.44dcda4c.chunk.js.map",
+    "runtime-main.js": "/Profile-card-react/static/js/runtime-main.50d4abf9.js",
+    "runtime-main.js.map": "/Profile-card-react/static/js/runtime-main.50d4abf9.js.map",
+    "static/js/2.27de5881.chunk.js": "/Profile-card-react/static/js/2.27de5881.chunk.js",
+    "static/js/2.27de5881.chunk.js.map": "/Profile-card-react/static/js/2.27de5881.chunk.js.map",
+    "static/js/3.2e560667.chunk.js": "/Profile-card-react/static/js/3.2e560667.chunk.js",
+    "static/js/3.2e560667.chunk.js.map": "/Profile-card-react/static/js/3.2e560667.chunk.js.map",
+    "index.html": "/Profile-card-react/index.html",
+    "static/css/main.531eb56f.chunk.css.map": "/Profile-card-react/static/css/main.531eb56f.chunk.css.map",
+    "static/js/2.27de5881.chunk.js.LICENSE.txt": "/Profile-card-react/static/js/2.27de5881.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Profile-card-react/static/media/profile-img.8ae99660.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50d4abf9.js",
+    "static/js/2.27de5881.chunk.js",
+    "static/css/main.531eb56f.chunk.css",
+    "static/js/main.44dcda4c.chunk.js"
+  ]
+}
