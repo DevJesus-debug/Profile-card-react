@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background: rgb(32, 63, 98);
+}
+
+header{
+  height: 230px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background: black;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(to right, rgb(152, 209, 241), rgb(20, 89, 153));
+
+}
+
+.img-cont{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 2px white;
+  background-image: url(./profile-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right:50% ; 
+  bottom: -50%;
+  transform: translate(50%,-35%);
+}
+
+
+.container{
+  background: white; 
+  -webkit-box-shadow: 0px 4px 14px 0px #313131; 
+  box-shadow: 0px 0px 1px 0px #3a3939;
+  height: 100%;
+  text-align: center;
+  border-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+h1{
+  font-size: 50px;
+  font-family: sans-serif;
+  margin: 80px 150px 30px;
+}
+
+p{
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+
+
+
+.btn:last-child{
+  margin-left: 14px;
+}
+
+.btn-cont{
+  margin: 15px 0;
+}
+
+.btn{
+  border: none;
+  font-family: sans-serif;
+  color: white;
+  background: black;
+  height: 50px;
+  width: 90px;
+  border-radius: 5px;
+}
+
+.btn:hover{
+background: rgb(67, 141, 224);
+color: white;
+}
+
+.like-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.like-cont .counter{
+  margin: 0 10px;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-top: 7px;
+  font-size: 30px;
+}
+
+.like-cont .fa-thumbs-up{
+  color: rgb(32, 126, 202);
+  margin-left: 5px;
+  font-size: 30px;
+}
+
+.icon {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+  margin: 20px auto;
+}
+
+.icon .fab{
+  color:black;
+  font-size: 40px;
+}
+
+
+@media screen and (max-width:600px){
+  
+  .container{
+    margin:auto 10px;
+  }
+
+  header{
+    height: 180px;
+  }
+
+  h1{
+    margin: 60px 90px 30px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+  
+
+
+}
